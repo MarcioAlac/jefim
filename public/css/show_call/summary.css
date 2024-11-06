@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Lexend:wght@100..900&family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Lexend:wght@100..900&family=Zilla+Slab+Highlight:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=DM+Serif+Display:ital@0;1&family=Lexend:wght@100..900&family=Zilla+Slab+Highlight:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Arimo:ital,wght@0,400..700;1,400..700&family=DM+Serif+Display:ital@0;1&family=Lexend:wght@100..900&family=Zilla+Slab+Highlight:wght@400;700&display=swap');
+
+.summary
+{
+    border-radius: 8px;
+    border: 1px solid rgba(158, 158, 158, 0.205);
+    text-align: center;
+    width: 100%; max-width: 300px;
+    padding: 5%;
+    box-shadow: -8px 8px 18px -1px rgba(0, 0, 0, 0.7);
+    color: rgb(255, 255, 255);
+
+    margin-top: 20%;
+}
+
+.summary h2, .summary h3
+{
+    letter-spacing: 1.5px;
+    -webkit-text-stroke: 1px #8b89895b;
+}
+
+.summary h2
+{
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 240%;
+}
+
+.summary h3
+{
+    font-family: "Shrikhand", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.split-line
+{
+    margin: 3%;
+}

@@ -1,0 +1,19 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ h1, h2, h3, h4, h5, p
+{
+    font-family: "Roboto", sans-serif;
+}
+
+body
+{
+    background-color: rgba(204, 108, 108, 0.748);
+    background-image: url('../assets/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

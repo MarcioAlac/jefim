@@ -1,0 +1,24 @@
+.buttons
+{
+    display: block;
+    position: absolute;
+    left: 90%;
+    transform: translateY(90%);
+    z-index: 1;
+}
+
+.buttons button
+{
+    width: 85px;
+    border-radius: 5px;
+    border: 2px solid rgb(203, 203, 203);
+    color: white;
+    background-color: rgb(17, 128, 0);
+    transition: all 0.3s ease-in-out;
+}
+
+.buttons button:hover
+{
+    width: 90px;
+    font-size: 17px;
+}

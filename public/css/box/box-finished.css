@@ -1,0 +1,32 @@
+.box-date
+{
+    position: relative;
+    justify-content: space-around;
+    top: -3.1%;
+    right: 4%;
+}
+.date-check
+{
+    margin-top: 5%;
+}
+.date-check p
+{
+    border: 1px solid rgba(0, 0, 0, 0.425);
+    border-radius: 6px;
+    padding: .6% 2%;
+    margin-left: 1%;
+    /* box-shadow: -11px 9px 17px 0px rgba(0, 0, 0, 0.63); */
+}
+
+.date-check input
+{
+    margin-left: 32%;
+}
+
+.box-date .btn-acept
+{   
+    margin: 0 auto;
+    color: #ffffff;
+    height: 50px;
+    transform: translateY(20%);
+}
