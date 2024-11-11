@@ -49,6 +49,7 @@ class UserController extends Controller
 
     public function check(Request $request): RedirectResponse
     {
+
         $request->validate(
             [
                 'password' => 'required|string|max:100',

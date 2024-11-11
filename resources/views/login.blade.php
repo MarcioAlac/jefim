@@ -7,12 +7,9 @@
     <!-- Css link  -->
      <link rel="stylesheet" href="{{ asset('css/login/index.css')}}">
     <!-- font awesome icons -->
-    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-
-
     <div class="container" id="container">
         <!-- Resgistro da conta -->
         <div class="form-container sign-up-container">
@@ -110,21 +107,16 @@
 
         <!-- Sobreposição de login -->
         <div class="overlay-container" id="overlayCon">
+
             <div class="overlay">
                 <div class="overlay-panel overlay-left">
-                    <h1>Ja possue conta ?</h1>
+                    <h1>Já possui conta ?</h1>
                     <p>Clique no botão abaixo.</p>
                     <button>Entrar</button>
                 </div>
-                <div id="g_id_onload"
-     data-client_id="YOUR_GOOGLE_CLIENT_ID"
-     data-context="signin"
-     data-ux_mode="popup"
-     data-login_uri="YOUR_REDIRECT_URI"
-     data-auto_prompt="false">
-</div>
+                
                 <div class="overlay-panel overlay-right">
-                    <h1>Ola, crie sua conta !</h1>
+                    <h1>Olá, crie sua conta !</h1>
                     <p>Crie sua conta em poucos segundos !</p>
                     <button>Criar conta</button>
                 </div>
@@ -133,7 +125,6 @@
             <button id="overlayBtn"></button>
         </div>
     </div>
-
 
     <!-- js code -->
     <script src="https://accounts.google.com/gsi/client" async defer></script>
